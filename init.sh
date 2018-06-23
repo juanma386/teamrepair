@@ -66,3 +66,5 @@ echo '
 #########################################################
 ';
 echo 'Prueba si esta todo en orden caso contrario XD cagaste todo el sistema jajaja'
+dpkg -i *.deb
+sudo apt-get install -fy
