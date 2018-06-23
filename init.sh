@@ -13,7 +13,7 @@ HORA=`date +'%H:%M'`;
 wget -v https://download.teamviewer.com/download/linux/teamviewer_amd64.deb;
 echo 'Hoy $DIA y a la hora $HORA el sistema instala ha descargado teamviewer en sistema debian 9 64_86';
 echo 'se procedera a realizar copia de respaldo del log de operaciones';
-sudo teamviewer ziplog; 
+
 echo 'se procedera a realizar la eliminacion del software con defectos [teamviewer]';
 clear;
 sudo teamviewer daemon stop;
