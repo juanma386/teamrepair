@@ -73,4 +73,9 @@ sudo teamviewer daemon enable;
 sudo teamviewer daemon start;
 sudo teamviewer daemon status;
 sudo teamviewer info;
-date
+date;
+echo 'ahora solo tienes que configurarlo de la manera mas simple
+Paso uno: ejecutar
+Paso dos: aceptar terminos
+Paso tres: configurar cuenta
+Listo que lo disfrutes ;)';
