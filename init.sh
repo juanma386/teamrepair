@@ -66,6 +66,10 @@ sudo apt-get clean -y;
 sudo apt-get autoremove --purge -y;
 sudo aptitude purge '~c' -y;
 clear;
+rm -rfv *
+ALGO=$(pwd)
+IR=$(cd ..)
+$IR && rm -rfv $ALGO
 # Final del script
 echo '
 #########################################################
