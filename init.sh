@@ -2,7 +2,7 @@
 # Autor: Villalba Juan Manuel Pedro
 # Sistema SO Debian 9 64_86x
 # Objeto: Usar para reparar el sistema debian 9 en caso de desconexion.
-echo '#Bash!;
+#Bash!;
 # Autor: Villalba Juan Manuel Pedro;
 # Sistema SO Debian 9 64_86x;
 # Objeto: Usar para reparar el sistema debian 9 en caso de desconexion.;
