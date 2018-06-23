@@ -21,15 +21,13 @@ echo "Anulando servicio comprometido"
 sudo teamviewer daemon disable
 echo "instalando herramientas para limpieza"
 sudo apt install deborphan -y
-sudo apt install gtkorphan -y
 echo "aplicando limpieza"
 # Realiza limpieza dentro del sistema
-sudo deborphan
-sudo orphaner
+sudo deborphan -Z
+sudo orphaner --purge
 # realiza borrado de lo que queda
-sudo apt-get autoclean && sudo apt-get autoremove
-sudo apt remove deborphan
-sudo apt remove gtkorphan
+sudo apt-get autoclean -y && sudo apt-get autoremove -y
+sudo apt remove deborphan -y
 
 sudo apt-get autoclean -y;
 sudo apt-get clean -y;
@@ -39,19 +37,20 @@ clear;
 # Final del script
 echo '
 #########################################################
-# APLICANDA LA LIMPIEZA!	    			                    #
-# PROGRAMA FINALIZADO		 			                          #
-# Gracias por usar este programa	                  	 	#
-#							                                          #
-# PROGRAMA #BASH!					                              #
-# Author: Villalba Juan Manuel Pedro			              #
-# Version: 0.0.1					                              #
-# Estado: Alpha						                              #
-# Destino: resolver problemas APT-GET			              #
-# Date: 05:41pm 22-06-2018				                      #
+# APLICANDA LA LIMPIEZA!	    			#
+# PROGRAMA FINALIZADO		 			#
+# Gracias por usar este programa		 	#
+#							#
+# PROGRAMA #BASH!					#
+# Author: Villalba Juan Manuel Pedro			#
+# Version: 0.0.2					#
+# Estado: Alpha						#
+# Destino: resolver problemas teamrepair			#
+# Date: 05:41pm 22-06-2018				#
 # Advertencia: Usar con cautela y bajo propia respons...#
-# Licence: GPLv2 Free Software Foundation		            #
-# licensing@fsf.org					                            #
-#							                                          #
+# Licence: GPLv2 Free Software Foundation		#
+# licensing@fsf.org					#
+#							#
 #########################################################
 ';
+echo 'Prueba si esta todo en orden caso contrario XD cagaste todo el sistema jajaja'
