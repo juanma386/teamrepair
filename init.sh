@@ -71,9 +71,9 @@ sudo apt-get install -fy
 
 sudo teamviewer daemon enable;
 sudo teamviewer daemon start;
-sudo teamviewer daemon status;
-sudo teamviewer info;
-date;
+sudo teamviewer daemon status|prisma;
+sudo teamviewer info|prisma;
+date|prisma;
 echo 'ahora solo tienes que configurarlo de la manera mas simple
 Paso uno: ejecutar
 Paso dos: aceptar terminos
