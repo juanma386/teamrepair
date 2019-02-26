@@ -1,0 +1,13 @@
+{
+    "name": "juanma/teamrepair",
+    "description": "Herramienta para debian 9 para instlar y/o arreglar datos dentro del sistema para hacer funcionar el teamviewer en debaian 09 usar con cuidado bajo propio riesgo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hexome",
+            "email": "hexomedesarrollos@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
