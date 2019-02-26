@@ -2,6 +2,7 @@
     "name": "juanma/teamrepair",
     "type": "library",
     "description": "tool repair",
+     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
